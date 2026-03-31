@@ -1,0 +1,91 @@
+/* banner.css */
+
+/* Blobs */
+.hero-bg-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(150px);
+  opacity: 0.6;
+  animation: blobMove 20s infinite alternate;
+  z-index: 0;
+}
+
+.blob1 {
+  width: 400px;
+  height: 400px;
+  background: var(--color-accent);
+  top: -100px;
+  left: -100px;
+}
+
+.blob2 {
+  width: 300px;
+  height: 300px;
+  background: var(--color-info);
+  bottom: -100px;
+  right: -50px;
+}
+
+.blob3 {
+  width: 350px;
+  height: 350px;
+  background: var(--color-success);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Blob animation */
+@keyframes blobMove {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  50% {
+    transform: scale(1.2) translate(30px, -20px);
+  }
+  100% {
+    transform: scale(1) translate(0, 0);
+  }
+}
+
+/* Hero Tag */
+.hero-tag {
+  z-index: 10;
+  font-size: 1rem;
+}
+
+/* Hero Name */
+.hero-name {
+  z-index: 10;
+}
+
+/* Hero Subtitle */
+.hero-sub {
+  z-index: 10;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+/* Hero CTA */
+.hero-cta .btn {
+  z-index: 10;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.hero-cta .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Scroll indicator */
+.hero-scroll {
+  z-index: 10;
+}
+
+.scroll-line {
+  border-radius: 1px;
+}
