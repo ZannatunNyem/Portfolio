@@ -2,7 +2,7 @@ import React from "react";
 import { FaLaptopCode, FaProjectDiagram } from "react-icons/fa";
 import { TbBrandJavascript, TbBrandReact } from "react-icons/tb";
 import { BsPersonWorkspace } from "react-icons/bs";
-import about from "../../../assets/about.PNG";
+import about from "../../../assets/about.png";
 export default function About() {
   return (
     <section
