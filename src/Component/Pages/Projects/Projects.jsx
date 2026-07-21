@@ -2,8 +2,8 @@ import React from "react";
 import { FiExternalLink } from "react-icons/fi";
 
 import elearning from "../../../assets/elarn.webp";
-import onlineShop from "../../../assets/onlineShop.PNG";
-import delivery from "../../../assets/delivery.PNG";
+import onlineShop from "../../../assets/onlineShop.webp";
+import delivery from "../../../assets/delivery.webp";
 
 export default function Projects() {
   const projects = [
