@@ -9,9 +9,7 @@ export default function About() {
       id="about"
       className="grid md:grid-cols-2 gap-20 items-center py-24 max-w-[1200px] mx-auto relative"
     >
-      {/* Left Visual */}
       <div className="relative h-[400px] w-full">
-        {/* Main Card */}
         <div className="absolute inset-0 bg-card border border-white/10 rounded-3xl flex items-center justify-center overflow-hidden ">
           <img
             src={about}
@@ -19,21 +17,17 @@ export default function About() {
             alt=""
             srcset=""
           />
-          {/* Glow layers */}
         </div>
 
-        {/* Floating Badge 1 */}
         <div className="absolute top-6 left-[-20px] bg-secondary border border-white/10 rounded-2xl px-5 py-3 text-sm font-semibold shadow-[0_8px_24px_rgba(0,0,0,0.25)] flex items-center gap-2">
           <FaProjectDiagram className="text-[#60a5fa]" /> 3 Projects Shipped
         </div>
 
-        {/* Floating Badge 2 */}
         <div className="absolute bottom-8 right-[-20px] bg-secondary border border-white/10 rounded-2xl px-5 py-3 text-sm font-semibold shadow-[0_8px_24px_rgba(0,0,0,0.25)] flex items-center gap-2">
           <BsPersonWorkspace className="text-[#60a5fa]" /> Open to Work
         </div>
       </div>
 
-      {/* Right Text */}
       <div>
         <p className="flex items-center gap-3 text-xs uppercase tracking-widest text-neutral mb-4 font-mono">
           <span className="block w-8 h-[1.5px] bg-neutral"></span>
@@ -56,7 +50,6 @@ export default function About() {
           products.
         </p>
 
-        {/* Stats */}
         <div className="flex gap-10">
           <div className="flex flex-col items-start">
             <div className="text-3xl font-extrabold text-accent flex items-center gap-2">
