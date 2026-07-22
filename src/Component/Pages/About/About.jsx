@@ -39,15 +39,15 @@ export default function About() {
         </h2>
 
         <p className="text-neutral leading-7 mb-4">
-          I'm a junior web developer who loves creating clean, fast, and
+          I'm a full stack web developer who loves creating clean, fast, and
           beautiful digital experiences. I focus on writing maintainable code
           and building projects that actually solve problems.
         </p>
 
         <p className="text-neutral leading-7 mb-8">
-          I'm currently growing my skills in React and modern JavaScript, and
-          I'm looking for opportunities to contribute to real world teams and
-          products.
+          I'm currently growing my skills in Next.Js, React and modern
+          JavaScript, and I'm looking for opportunities to contribute to real
+          world teams and products.
         </p>
 
         <div className="flex gap-10">

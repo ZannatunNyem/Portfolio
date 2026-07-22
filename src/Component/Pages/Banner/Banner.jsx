@@ -15,7 +15,7 @@ export default function Banner() {
         </h1>
 
         <span className="block mx-auto mb-7  text-neutral font-mono font-normal text-[clamp(17px,2.8vw,24px)]">
-          Junior Web Developer — HTML · CSS · JS · React
+          Web Developer — HTML · CSS · JS · React
         </span>
 
         <p className="hero-sub text-neutral max-w-2xl mx-auto mb-8 text-base sm:text-lg">
